@@ -18,7 +18,7 @@ const CardItem = styled(Link)`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    color: ${(props) => props.theme.colors.color};
+    color: ${(props) => props.theme.colors.white};
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
   }
 

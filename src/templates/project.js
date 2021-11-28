@@ -153,7 +153,7 @@ Project.defaultProps = {
 }
 
 export const pageQuery = graphql`
-  query($slug: String!, $absolutePathRegex: String!) {
+  query ($slug: String!, $absolutePathRegex: String!) {
     images: allFile(
       filter: {
         absolutePath: { regex: $absolutePathRegex }

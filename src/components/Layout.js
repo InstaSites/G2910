@@ -29,6 +29,7 @@ const AbsoluteWrapper = styled.main`
   bottom: 0;
   width: 100%;
   height: 100%;
+  background-color: ${(props) => props.theme.colors.bg};
 `
 
 const Layout = ({ children, customSEO }) => (

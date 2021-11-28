@@ -15,16 +15,16 @@ const Content = styled.div`
   width: 100%;
   max-width: ${(props) => props.theme.maxWidths.general};
   padding: 0 1.0875rem 5rem 1.0875rem;
-  color: ${(props) => props.theme.colors.secondary};
+  color: ${(props) => props.theme.colors.white};
+  background-color: ${(props) => props.theme.colors.bg};
 `
 
 const Details = styled.div`
   width: 100%;
   margin-top: 3rem;
   text-align: center;
-
   h1 {
-    color: ${(props) => props.theme.colors.color};
+    color: ${(props) => props.theme.colors.white};
   }
 `
 

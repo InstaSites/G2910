@@ -4,12 +4,13 @@
 module.exports = {
   bgPattern: ``,
   colors: {
-    bg: 'white',
+    bg: '#17191A',
     color: 'black',
     dark_bg: 'black',
     secondary: '#b6b6b6',
     link: 'black',
     linkHover: '#79a8ff',
+    white: 'white',
   },
   maxWidths: {
     general: '1600px',

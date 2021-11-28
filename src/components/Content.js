@@ -6,6 +6,8 @@ const Content = styled.div`
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  color: ${(props) => props.theme.colors.white};
+  background-color: ${(props) => props.theme.colors.bg};
 `
 
 export default Content

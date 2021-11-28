@@ -76,7 +76,7 @@ const reset = css`
     // background-color: ${theme.colors.link};
   }
   a {
-    color: ${theme.colors.link};
+    color: ${theme.colors.white};
     transition: all 0.3s ease-in-out;
     text-decoration: none;
     &:hover,

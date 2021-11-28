@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import theme from '../../config/theme'
 
 const NavbarStyled = styled.div`
+  background-color: ${(props) => props.theme.colors.bg};
   width: 100%;
   box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.25);
   padding: 1rem;
@@ -13,6 +14,7 @@ const NavbarStyled = styled.div`
 const Entry = styled(Link)`
   margin-left: 1rem;
   cursor: pointer;
+  color: ${(props) => props.theme.colors.white};
 `
 
 const Entries = styled.div`

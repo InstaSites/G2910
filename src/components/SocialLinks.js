@@ -24,11 +24,12 @@ const SocialLink = styled.a`
   box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
   font-size: 0.8rem;
+  color: ${(props) => props.theme.colors.white};
 
   :hover,
   :focus {
     box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.4);
-    color: black;
+    color: white;
   }
 
   span {
