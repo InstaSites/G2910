@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://G2910.photos/sitemap.xml
